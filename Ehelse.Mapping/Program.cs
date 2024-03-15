@@ -15,7 +15,7 @@ using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
     csv.WriteHeader<Icd10CsvRecord>();
     csv.NextRecord();
 
-    int pageNumber = 728;
+    int pageNumber = 1;
     int totalPages = 3;
     do
     {
